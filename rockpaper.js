@@ -28,7 +28,7 @@ function checkScore() {
         play.style.display = "block";
         play.disabled = false;
 
-        play.textContent = "U WANT MORE, MATE? 😡";
+        play.textContent = "WANT ANOTHER ROUND?";
 
     }
 
@@ -44,7 +44,7 @@ function start(e) {
     playerText.textContent = ""
     computerText.textContent = ""
     play.style.display = "none";
-    result.textContent = "🔪 COME GET SOME! 🔪"
+    result.textContent = "LET'S GO!"
     resultWrap.textContent = ""
     choiceButton.forEach(choice => choice.style.display = "block");
 }, 1000); 
@@ -188,7 +188,7 @@ rock.addEventListener("click", () => {
     let playerChoice = "rock";
     let computerSelection = computerChoice();
     playRound(playerChoice, computerSelection);
-    hideChoice();
+   // hideChoice();
 })
 
 paper.addEventListener("click",() => {
@@ -198,7 +198,7 @@ paper.addEventListener("click",() => {
     let playerChoice = "paper";
     let computerSelection = computerChoice();
     playRound(playerChoice, computerSelection);
-    hideChoice();
+    //hideChoice();
 })
 
 scissors.addEventListener("click",() => {
@@ -208,7 +208,7 @@ scissors.addEventListener("click",() => {
     let playerChoice = "scissors";
     let computerSelection = computerChoice();
     playRound(playerChoice, computerSelection);
-    hideChoice();
+    //hideChoice();
 })
 
 function hideChoice() {

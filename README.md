@@ -1,6 +1,6 @@
-## **[RockPaperScissors Live Demo](https://engineman11.github.io/RockPaperScissors/)**
+### Project Number 0x00: Rock Paper Scissors
 
-Project 0x00
+## **[RockPaperScissors Live Demo](https://engineman11.github.io/RockPaperScissors/)**
 
 This simple rock-paper-scissors game was build with plain HTML, CSS, JavaScript.
 
